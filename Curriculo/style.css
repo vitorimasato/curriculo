@@ -1,0 +1,121 @@
+/*header{
+	background-color:SteelBlue;
+	height: 100px;
+	paddding: 50px;
+	text-align: center-left;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 50px; 
+	color:Thistle;
+	text-shadow: 1px 1px 1px #111111;
+	float: left;
+}*/
+
+h1{
+	color: #6C7A89;
+	text-align: center;
+	font-family: Verdana;
+	font-weight: bold;
+	margin:0 0 50px 0;
+	text-shadow: 1px 1px 1px #111111;
+}
+
+p{
+	color:#FFFFFF;
+	text-align: center;
+	font-family: Verdana;
+	font-weight: bold;
+	margin:0 0 50px 0;
+}
+
+
+
+footer{
+	/*background-color:SteelBlue;
+	height: 30px;
+	padding: 20px 0 0 0;*/
+	text-align: center;
+	font-family: "Courier New";
+}
+
+/*IDS*/
+
+#principal{
+	margin: 0 0 0 0;
+	background-image: url("bg1.jpg");
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 830px;
+	padding: 100px 0 0 0;
+	width: 80%;
+	float: right;
+	clear: both; 
+}
+
+#menu{
+	background-image: linear-gradient(to top right, #191970, #D3D3D3);
+	float: left;
+	min-height:830px;
+	width: 20%;
+	margin: 0 0 0 0;
+	font-family: Copperplate;
+	font-size: 15pt;
+	text-align: center;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 0 #111111;
+}
+
+#menu a{
+	padding: 5px 5px;
+	margin-left: 20px;
+	text-decoration: none;
+	color: #191970;
+}
+
+#menu a:hover{
+	background-color: SlateGray;
+	color: #E0E7E9;
+	border-radius: 10px;
+	 
+}
+
+#linkedin a{
+	position: relative; bottom: -300px; left: 80px;
+}
+
+#insta a{
+	position: relative; bottom: -302px; left: 100px;
+}
+
+#github a{
+	position: relative; bottom: -300px; right: 200px;
+}
+
+#logos a:hover{
+	background-color: SlateGray;
+	color: #E0E7E9;
+	border-radius:40px;
+}
+
+#me{
+	position: relative;top: 80px; left: 10px;
+	border-radius: 50%;
+	width: 150px;
+}
+#me img:hover{
+	background-color: SlateGray;
+	color: #E0E7E9;
+	border-radius: 80px;
+}
+
+
+/*Class*/
+
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 50px 0 100px 0;
+	
+	
+}
